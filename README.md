@@ -51,7 +51,7 @@ To generate a project, adjust the following command line to your needs:
 * Lookup the list of available properties to see if there's more you want to adjust.
 
 ```
-mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.3.1:generate \
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.4.1:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=58\
@@ -60,7 +60,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.3.1:generate \
  -D groupId="com.mysite"
 ```
 
-**Note**: Make sure you use at least 3.3.1+ of maven-archetype-plugin ([#400](https://github.com/adobe/aem-project-archetype/issues/400))
+**Note**: Make sure you use at least 3.4.1+ of maven-archetype-plugin ([#400](https://github.com/adobe/aem-project-archetype/issues/400))
 
 **Note**: To run above command with older versions, you have to use the old `archetypeGroupId`: `-D archetypeGroupId=com.adobe.granite.archetype`
 
@@ -98,7 +98,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.3.1:generate \
 
 | Archetype                                                                                  | AEM as a Cloud Service | AEM 6.5   | Java SE | Maven  |
 |--------------------------------------------------------------------------------------------|------------------------|-----------|---------|--------|
-| [58](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-58) | Continual              | 6.5.17.0+ | 11      | 3.3.9+ |
+| [58](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-58) | Continual              | 6.5.17.0+ | 11      | 3.9.11+ |
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM.](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)
 
